@@ -11,6 +11,7 @@ public class IteratorExample {
         arrayList1.add("Владимир");
         arrayList1.add("Яна");
 
+        // с помощью итератора может вывести элементы массива
         Iterator<String> iterator = arrayList1.iterator();
         while(iterator.hasNext()){
             iterator.next();
